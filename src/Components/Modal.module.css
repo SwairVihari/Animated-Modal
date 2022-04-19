@@ -1,0 +1,29 @@
+.Modal{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 35%;
+    background-color: #EFFFFD;
+    color:#003F5C;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+.buttonContainer{
+    margin-top: 30px;
+}
+
+.Button{
+    background-color: #003F5C;
+    padding: 10px 20px;
+    min-width: 100px;
+    color: white;
+    border: none;
+    margin-right: 20px;
+    transition: all 0.3s ;
+}
+
+.Button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
